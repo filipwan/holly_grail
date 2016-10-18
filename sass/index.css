@@ -1,38 +1,47 @@
 /* line 1, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
 body {
-  background: #555; }
+  background: #555;
+  margin: 0;
+  padding: 0; }
 
-/* line 4, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+/* line 6, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
 .container header {
+  position: fixed;
   background: orange;
   height: 100px;
-  padding: 20px; }
+  padding: 20px;
+  width: 100%; }
 
-/* line 8, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+/* line 12, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
 .container main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: stretch;
-  align-items: stretch; }
-  /* line 15, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+  align-items: stretch;
+  padding-top: 140px;
+  padding-bottom: 90px; }
+  /* line 21, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
   .container main .side1 {
     width: 15%;
     background: yellow; }
-  /* line 18, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+  /* line 24, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
   .container main .text {
-    width: 65%;
+    width: 70%;
     background: blue; }
-  /* line 21, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+  /* line 27, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
   .container main .side2 {
     width: 15%;
     background: yellow; }
 
-/* line 24, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+/* line 30, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
 .container footer {
+  position: fixed;
   background: orange;
   height: 50px;
-  padding: 20px; }
+  padding: 20px;
+  width: 100%;
+  bottom: 0; }
 
 /*# sourceMappingURL=index.css.map */
