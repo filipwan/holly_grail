@@ -1,0 +1,38 @@
+/* line 1, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+body {
+  background: #555; }
+
+/* line 4, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+.container header {
+  background: orange;
+  height: 100px;
+  padding: 20px; }
+
+/* line 8, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+.container main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch; }
+  /* line 15, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+  .container main .side1 {
+    width: 15%;
+    background: yellow; }
+  /* line 18, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+  .container main .text {
+    width: 65%;
+    background: blue; }
+  /* line 21, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+  .container main .side2 {
+    width: 15%;
+    background: yellow; }
+
+/* line 24, C:/Users/Filip/Desktop/Skol Dokument/Webbutveckling2/flexbox/sass/index.sass */
+.container footer {
+  background: orange;
+  height: 50px;
+  padding: 20px; }
+
+/*# sourceMappingURL=index.css.map */
